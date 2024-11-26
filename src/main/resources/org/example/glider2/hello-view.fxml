@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.glider2.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="248.0" layoutY="353.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="112.0" text="Button" />
+      <TextField alignment="CENTER" layoutX="224.0" layoutY="129.0" prefHeight="26.0" prefWidth="79.0" text="Login">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="230.0" layoutY="34.0" prefHeight="50.0" prefWidth="106.0" text="Glider">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
