@@ -1,4 +1,4 @@
-package org.example.glider2;
+package Database;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -14,5 +14,6 @@ public class DatabaseConnection {
             System.out.println("Connection failed.");
 
         }
+        System.out.println("Database Connected");
     }
 }
