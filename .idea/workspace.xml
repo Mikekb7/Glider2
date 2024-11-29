@@ -151,6 +151,11 @@
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="f21901c4-e4a2-404f-8aed-765558b4610b">
           <value>
             <State>

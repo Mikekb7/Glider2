@@ -18,7 +18,7 @@ public class DatabaseConnection {
             System.out.println("Connection was successful!");
 
             // CRUD
-           /* PreparedStatement ps = connection.prepareStatement(Queries.login);
+            PreparedStatement ps = connection.prepareStatement(Queries.login);
             ps.setString(1,"mikebonger");
             ps.setString(2,"mikepass123");
 
@@ -29,8 +29,6 @@ public class DatabaseConnection {
             while(resultSet.next()){
                 System.out.println(resultSet.getString("Username") + resultSet.getString("Password"));
             }
-            */
-
 
         } catch(SQLException e){
             System.out.println("Connection failed: " + e.getMessage());
