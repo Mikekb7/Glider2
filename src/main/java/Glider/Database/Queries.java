@@ -1,6 +1,6 @@
 package Glider.Database;
 
 public class Queries {
-    public static final String login = "SELECT COUNT(*) FROM users WHERE username = ? AND password = ?";
+    public static final String login = "SELECT Username FROM user WHERE Username = ? AND Password = ?";
 
 }

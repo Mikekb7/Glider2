@@ -12,15 +12,28 @@ import Glider.Execptions.LoginExeceptions;
 
 public class DatabaseConnection {
     public static void main(String[] args) {
-        Connection connection = null;
-        try {
-            connection = DriverManager.getConnection("jdbc:mysql://gliderserver.mysql.database.azure.com:3306/gliderdatabase?useSSL=true", "glider", "Gpassword123");
-            System.out.println("Successful!");
 
+        try {
+            Connection connection = DriverManager.getConnection("jdbc:mysql://gliderserver.mysql.database.azure.com:3306/gliderdatabase?useSSL=true", "glider", "Gpassword123");
+            System.out.println("Connection was successful!");
+
+            // CRUD
+           /* PreparedStatement ps = connection.prepareStatement(Queries.login);
+            ps.setString(1,"mikebonger");
+            ps.setString(2,"mikepass123");
+
+            // Run the query
+
+            ResultSet resultSet = ps.executeQuery();
+
+            while(resultSet.next()){
+                System.out.println(resultSet.getString("Username") + resultSet.getString("Password"));
+            }
+            */
 
 
         } catch(SQLException e){
-            System.out.println("Connection failed.");
+            System.out.println("Connection failed: " + e.getMessage());
 
         }
     }
