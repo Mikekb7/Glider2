@@ -1,9 +1,13 @@
-package Database;
+package Glider.Database;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
-
+import Glider.common.Customer;
+import Glider.common.Flights;
+import Glider.common.Admin;
+import Glider.Execptions.LoginExeceptions;
 
 
 public class DatabaseConnection {
@@ -20,4 +24,6 @@ public class DatabaseConnection {
 
         }
     }
+
+    public static void
 }

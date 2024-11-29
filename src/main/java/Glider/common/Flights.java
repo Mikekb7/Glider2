@@ -1,3 +1,5 @@
+package Glider.common;
+
 public class Flights {
     private String flightNumber;
     private String departure;

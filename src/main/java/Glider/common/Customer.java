@@ -1,3 +1,5 @@
+package Glider.common;
+
 public class Customer {
     private String username;
     private String password;

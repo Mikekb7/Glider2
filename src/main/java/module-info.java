@@ -9,6 +9,6 @@ module org.example.glider2 {
 
     opens org.example.glider2 to javafx.fxml;
     exports org.example.glider2;
-    exports Database;
-    opens Database to javafx.fxml;
+    exports Glider.Database;
+    opens Glider.Database to javafx.fxml;
 }
