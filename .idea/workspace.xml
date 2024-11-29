@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="Database part2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseConnection.java" afterDir="false" />
+    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/BusinessLogic/BusinessLogicProcessess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/Execptions/LoginExeceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/GUI/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/GUI/ExceptionHandlers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/GUI/LoginLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/common/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/common/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/Database/Queries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Flights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/common/Flights.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +26,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,10 +73,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/CIS3270 Project + Azure DB connectivity",
+    "last_directory_selection": "C:/Users/hailu/Documents/App Development/Glider2/src/main/java/Glider/common",
+    "last_opened_file_path": "C:/Users/hailu/Documents/App Development/Glider2/src/main/java/Glider",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Glider.common" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="glider2.0" />
