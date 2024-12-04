@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="trial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Glider/common/Actions.java" afterDir="false" />
+    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="actions + changes to customor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/common/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/common/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/common/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/common/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/GUI/LoginLandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/GUI/LoginLandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733280578573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="actions + changes to customor">
+      <option name="closed" value="true" />
+      <created>1733341678212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733341678213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +228,7 @@
     <MESSAGE value="Update Queries" />
     <MESSAGE value="first page, login and register page" />
     <MESSAGE value="trial" />
-    <option name="LAST_COMMIT_MESSAGE" value="trial" />
+    <MESSAGE value="actions + changes to customor" />
+    <option name="LAST_COMMIT_MESSAGE" value="actions + changes to customor" />
   </component>
 </project>

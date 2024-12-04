@@ -19,8 +19,8 @@ public class DatabaseConnection {
 
             // CRUD
             PreparedStatement ps = connection.prepareStatement(Queries.login);
-            ps.setString(1,"mikebonger");
-            ps.setString(2,"mikepass123");
+            ps.setString(1,"Mike123");
+            ps.setString(2,"Password123");
 
             // Run the query
 
