@@ -7,20 +7,37 @@ public class Customer {
     private String firstName;
     private String lastName;
     private String email;
-    private final String role = "Customer";
+    private String address;
+    private String state;
+    private String city;
+    private String state;
+    private String zipcode;
+    private String securityQuestion;
+    private String securityAnswer;
+
+
+    private String role = "Customer";
     private ArrayList<Flights> flights;
     private String action;
 
 
     public Customer(){
+
         flights = new ArrayList<>();
     }
-    public Customer(String username, String password, String firstName, String lastName, String email){
+
+    public Customer(String username, String password, String firstName, String lastName, String email, String address, String city, String state, Integer zipcode, String securityQuestion, String securityAnswer){
         this.username = username;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zipcode = zipcode;
+        this.securityQuestion = securityQuestion;
+        this.securityAnswer = securityAnswer;
     }
 
     public String getUsername(){
