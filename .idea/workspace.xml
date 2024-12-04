@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="actions + changes to customor" />
+    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="actions + changes to customor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/GUI/LoginLandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/GUI/LoginLandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
