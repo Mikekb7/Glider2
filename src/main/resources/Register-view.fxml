@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="40.0" layoutY="100.0" prefHeight="34.0" prefWidth="244.0" promptText="Enter a username" />
+       <TextField layoutX="40.0" layoutY="140.0" prefHeight="34.0" prefWidth="244.0" promptText="Enter a password" />
+       <TextField layoutX="40.0" layoutY="180.0" prefHeight="34.0" prefWidth="244.0" promptText="First Name" />
+       <TextField layoutX="40.0" layoutY="220.0" prefHeight="34.0" prefWidth="244.0" promptText="Last Name" />
+       <TextField layoutX="40.0" layoutY="260.0" prefHeight="34.0" prefWidth="244.0" promptText="Role" />
+       <TextField layoutX="40.0" layoutY="300.0" prefHeight="34.0" prefWidth="244.0" promptText="Email" />
+       <TextField layoutX="40.0" layoutY="340.0" prefHeight="34.0" prefWidth="244.0" promptText="Address" />
+       <TextField layoutX="40.0" layoutY="380.0" prefHeight="34.0" prefWidth="244.0" promptText="City" />
+       <TextField layoutX="40.0" layoutY="420.0" prefHeight="34.0" prefWidth="244.0" promptText="State" />
+       <TextField layoutX="40.0" layoutY="460.0" prefHeight="34.0" prefWidth="244.0" promptText="Zipcode" />
+      <Button layoutX="129.0" layoutY="518.0" mnemonicParsing="false" text="Register" />
+      <TextArea layoutX="40.0" layoutY="50.0" prefHeight="34.0" prefWidth="244.0" text="Glider Account" />
+
+
+
+   </children>
+</AnchorPane>
