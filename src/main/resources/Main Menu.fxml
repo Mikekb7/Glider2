@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="mainMenuPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #f7c08a, #f7a76c);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <VBox alignment="CENTER" spacing="30">
+        <!-- Title -->
+        <Label style="-fx-font-size: 30; -fx-text-fill: white; -fx-font-weight: bold; -fx-effect: dropshadow(gaussian, black, 5, 0.5, 1, 1);" text="Book your next trip" />
+
+        <!-- Buttons -->
+        <VBox alignment="CENTER" spacing="15">
+            <Button fx:id="loginButton" prefHeight="39.0" prefWidth="167.0" style="-fx-font-size: 18; -fx-background-color: #ffffff; -fx-text-fill: #2193b0; -fx-background-radius: 10;" text="Login" />
+            <Button fx:id="registerButton" prefHeight="39.0" prefWidth="172.0" style="-fx-font-size: 18; -fx-background-color: #ffffff; -fx-text-fill: #2193b0; -fx-background-radius: 10;" text="Register" />
+
+        </VBox>
+    </VBox>
+</StackPane>
