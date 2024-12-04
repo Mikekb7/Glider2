@@ -10,7 +10,6 @@ public class Customer {
     private String address;
     private String state;
     private String city;
-    private String state;
     private String zipcode;
     private String securityQuestion;
     private String securityAnswer;

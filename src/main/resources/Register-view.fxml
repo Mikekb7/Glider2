@@ -15,7 +15,7 @@
        <TextField layoutX="40.0" layoutY="380.0" prefHeight="34.0" prefWidth="244.0" promptText="City" />
        <TextField layoutX="40.0" layoutY="420.0" prefHeight="34.0" prefWidth="244.0" promptText="State" />
        <TextField layoutX="40.0" layoutY="460.0" prefHeight="34.0" prefWidth="244.0" promptText="Zipcode" />
-      <Button layoutX="129.0" layoutY="518.0" mnemonicParsing="false" text="Register" />
+      <Button layoutX="129.0" layoutY="518.0" mnemonicParsing="false" text="Sign up" />
       <TextArea layoutX="40.0" layoutY="50.0" prefHeight="34.0" prefWidth="244.0" text="Glider Account" />
 
 
