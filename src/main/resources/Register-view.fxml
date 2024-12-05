@@ -3,22 +3,21 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <TextField layoutX="40.0" layoutY="100.0" prefHeight="34.0" prefWidth="244.0" promptText="Enter a username" />
-       <TextField layoutX="40.0" layoutY="140.0" prefHeight="34.0" prefWidth="244.0" promptText="Enter a password" />
-       <TextField layoutX="40.0" layoutY="180.0" prefHeight="34.0" prefWidth="244.0" promptText="First Name" />
-       <TextField layoutX="40.0" layoutY="220.0" prefHeight="34.0" prefWidth="244.0" promptText="Last Name" />
-       <TextField layoutX="40.0" layoutY="260.0" prefHeight="34.0" prefWidth="244.0" promptText="Role" />
-       <TextField layoutX="40.0" layoutY="300.0" prefHeight="34.0" prefWidth="244.0" promptText="Email" />
-       <TextField layoutX="40.0" layoutY="340.0" prefHeight="34.0" prefWidth="244.0" promptText="Address" />
-       <TextField layoutX="40.0" layoutY="380.0" prefHeight="34.0" prefWidth="244.0" promptText="City" />
-       <TextField layoutX="40.0" layoutY="420.0" prefHeight="34.0" prefWidth="244.0" promptText="State" />
-       <TextField layoutX="40.0" layoutY="460.0" prefHeight="34.0" prefWidth="244.0" promptText="Zipcode" />
-      <Button layoutX="129.0" layoutY="518.0" mnemonicParsing="false" text="Register" />
-      <TextArea layoutX="40.0" layoutY="50.0" prefHeight="34.0" prefWidth="244.0" text="Glider Account" />
+<StackPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Glider.common.SignUpController">
+    <VBox alignment="CENTER" spacing="15" style="-fx-background-color: linear-gradient(to bottom, #f7c08a, #f7a76c);" prefWidth="400.0">
+        <Label text="Sign Up" style="-fx-font-size: 24; -fx-text-fill: white; -fx-font-weight: bold;" />
 
-
-
-   </children>
-</AnchorPane>
+        <TextField fx:id="usernameField" promptText="Username" prefWidth="250.0" />
+        <PasswordField fx:id="passwordField" promptText="Password" prefWidth="250.0" />
+        <TextField fx:id="firstNameField" promptText="First Name" prefWidth="250.0" />
+        <TextField fx:id="lastNameField" promptText="Last Name" prefWidth="250.0" />
+        <TextField fx:id="emailField" promptText="Email" prefWidth="250.0" />
+        <TextField fx:id="addressField" promptText="Address" prefWidth="250.0" />
+        <TextField fx:id="cityField" promptText="City" prefWidth="250.0" />
+        <TextField fx:id="stateField" promptText="State" prefWidth="250.0" />
+        <TextField fx:id="zipCodeField" promptText="Zip Code" prefWidth="250.0" />
+        <TextField fx:id="securityQuestionField" promptText="Security Question" prefWidth="250.0" />
+        <TextField fx:id="securityAnswerField" promptText="Security Answer" prefWidth="250.0" />
+        <Button text="Sign Up" fx:id="signUpButton" style="-fx-background-color: white; -fx-text-fill: #2193b0; -fx-background-radius: 10;" />
+    </VBox>
+</StackPane>

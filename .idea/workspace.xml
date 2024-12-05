@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="connecting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Glider/Database/DatabaseConnection.java" afterDir="false" />
-    </list>
+    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="Update Queries" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +15,8 @@
       <list>
         <option value="package-info" />
         <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -27,6 +24,7 @@
     <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -35,12 +33,12 @@
     &quot;assignee&quot;: &quot;Mikekb7&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Mikekb7/Glider2&quot;,
-    &quot;accountId&quot;: &quot;7702d887-56f5-42b5-92c0-448ca3f92967&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mikekb7/Glider2",
+    "accountId": "2dd93ce3-8c10-4ed4-822c-27afee70fb92"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -151,31 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732924011593</updated>
     </task>
-    <task id="LOCAL-00005" summary="first page, login and register page">
+    <task id="LOCAL-00005" summary="Update Queries">
       <option name="closed" value="true" />
-      <created>1733279856227</created>
+      <created>1733350885372</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1733279856227</updated>
+      <updated>1733350885373</updated>
     </task>
-    <task id="LOCAL-00006" summary="trial">
-      <option name="closed" value="true" />
-      <created>1733280578573</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1733280578573</updated>
-    </task>
-    <task id="LOCAL-00007" summary="actions + changes to customor">
-      <option name="closed" value="true" />
-      <created>1733341678212</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1733341678213</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,9 +206,6 @@
     <MESSAGE value="commiting test" />
     <MESSAGE value="Database part2" />
     <MESSAGE value="Update Queries" />
-    <MESSAGE value="first page, login and register page" />
-    <MESSAGE value="trial" />
-    <MESSAGE value="actions + changes to customor" />
-    <option name="LAST_COMMIT_MESSAGE" value="actions + changes to customor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Queries" />
   </component>
 </project>
