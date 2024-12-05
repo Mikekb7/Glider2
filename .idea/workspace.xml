@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="Update Queries" />
+    <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="m">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +35,12 @@
     &quot;assignee&quot;: &quot;Mikekb7&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mikekb7/Glider2",
-    "accountId": "2dd93ce3-8c10-4ed4-822c-27afee70fb92"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mikekb7/Glider2&quot;,
+    &quot;accountId&quot;: &quot;2dd93ce3-8c10-4ed4-822c-27afee70fb92&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
