@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="BookingView"
-            prefHeight="400.0" prefWidth="600.0">
+<StackPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to bottom, #f7c08a, #f7a76c);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <!-- Top Bar with Logout Button -->
+    <HBox alignment="BOTTOM_RIGHT" style="-fx-padding: 10;" prefWidth="800.0">
+        <Button fx:id="logoutButton" text="Logout" style="-fx-font-size: 14; -fx-background-color: white; -fx-text-fill: #d9534f; -fx-background-radius: 10;" />
+    </HBox>
 
-</AnchorPane>
+    <!-- Main Content -->
+    <VBox spacing="20" alignment="CENTER" style="-fx-padding: 20;">
+        <!-- Welcome Message -->
+        <Label fx:id="welcomeLabel" text="Welcome, [User]!" style="-fx-font-size: 28; -fx-font-weight: bold; -fx-text-fill: white;" />
+
+        <!-- Booked Flights Table -->
+        <TableView fx:id="bookedFlightsTable" prefHeight="300.0" prefWidth="700.0">
+            <columns>
+                <TableColumn text="Flight Number" fx:id="flightNumberColumn" />
+                <TableColumn text="From City" fx:id="fromCityColumn" />
+                <TableColumn text="To City" fx:id="toCityColumn" />
+                <TableColumn text="Date" fx:id="dateColumn" />
+                <TableColumn text="Time" fx:id="timeColumn" />
+                <TableColumn text="Seats Booked" fx:id="seatsColumn" />
+            </columns>
+            <!-- Placeholder for Empty Table -->
+            <placeholder>
+                <Label text="You have no booked flights." style="-fx-font-size: 16; -fx-text-fill: grey;" />
+            </placeholder>
+        </TableView>
+
+        <!-- Action Buttons -->
+        <HBox spacing="20" alignment="CENTER">
+            <!-- Book a New Flight Button -->
+            <Button fx:id="bookFlightButton" text="Book a New Flight" style="-fx-font-size: 18; -fx-background-color: white; -fx-text-fill: #2193b0; -fx-background-radius: 10;" />
+            <!-- Cancel Flight Button -->
+            <Button fx:id="cancelFlightButton" text="Cancel Selected Flight" style="-fx-font-size: 18; -fx-background-color: white; -fx-text-fill: #d9534f; -fx-background-radius: 10;" disable="true" />
+        </HBox>
+    </VBox>
+</StackPane>

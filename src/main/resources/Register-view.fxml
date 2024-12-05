@@ -7,40 +7,17 @@
     <VBox alignment="CENTER" spacing="15" style="-fx-background-color: linear-gradient(to bottom, #f7c08a, #f7a76c);" prefWidth="400.0">
         <Label text="Sign Up" style="-fx-font-size: 24; -fx-text-fill: white; -fx-font-weight: bold;" />
 
-        <!-- Username -->
         <TextField fx:id="usernameField" promptText="Username" prefWidth="250.0" />
-
-        <!-- Password -->
         <PasswordField fx:id="passwordField" promptText="Password" prefWidth="250.0" />
-
-        <!-- First Name -->
         <TextField fx:id="firstNameField" promptText="First Name" prefWidth="250.0" />
-
-        <!-- Last Name -->
         <TextField fx:id="lastNameField" promptText="Last Name" prefWidth="250.0" />
-
-        <!-- Email -->
         <TextField fx:id="emailField" promptText="Email" prefWidth="250.0" />
-
-        <!-- Address -->
         <TextField fx:id="addressField" promptText="Address" prefWidth="250.0" />
-
-        <!-- City -->
         <TextField fx:id="cityField" promptText="City" prefWidth="250.0" />
-
-        <!-- State -->
         <TextField fx:id="stateField" promptText="State" prefWidth="250.0" />
-
-        <!-- Zip Code -->
         <TextField fx:id="zipCodeField" promptText="Zip Code" prefWidth="250.0" />
-
-        <!-- Security Question -->
         <TextField fx:id="securityQuestionField" promptText="Security Question" prefWidth="250.0" />
-
-        <!-- Security Answer -->
         <TextField fx:id="securityAnswerField" promptText="Security Answer" prefWidth="250.0" />
-
-        <!-- Sign Up Button -->
         <Button text="Sign Up" fx:id="signUpButton" style="-fx-background-color: white; -fx-text-fill: #2193b0; -fx-background-radius: 10;" />
     </VBox>
 </StackPane>
