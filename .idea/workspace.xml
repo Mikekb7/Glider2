@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eccf4361-0761-4779-8453-a8189a22fcaf" name="Changes" comment="New Fxmls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Booking-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Booking-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forgot-password-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forgot-password-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Main Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Register-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Reservations-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Reservations-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +34,12 @@
     &quot;assignee&quot;: &quot;Mikekb7&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mikekb7/Glider2",
-    "accountId": "2dd93ce3-8c10-4ed4-822c-27afee70fb92"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mikekb7/Glider2&quot;,
+    &quot;accountId&quot;: &quot;2dd93ce3-8c10-4ed4-822c-27afee70fb92&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -190,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733370948054</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New Fxmls">
+      <option name="closed" value="true" />
+      <created>1733372903306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733372903306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
