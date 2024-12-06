@@ -34,7 +34,7 @@ public class Customer {
         this.address = address;
         this.city = city;
         this.state = state;
-        this.zipcode = zipcode;
+
         this.securityQuestion = securityQuestion;
         this.securityAnswer = securityAnswer;
     }
