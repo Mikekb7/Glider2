@@ -14,6 +14,9 @@
         <!-- Welcome Message -->
         <Label fx:id="welcomeLabel" text="Welcome, [User]!" style="-fx-font-size: 28; -fx-font-weight: bold; -fx-text-fill: white;" />
 
+        <!-- Reservation ID Input -->
+        <TextField fx:id="reservationIdField" promptText="Enter your Reservation ID" style="-fx-font-size: 16; -fx-background-radius: 10;" />
+
         <!-- Booked Flights Table -->
         <TableView fx:id="bookedFlightsTable" prefHeight="300.0" prefWidth="700.0">
             <columns>
